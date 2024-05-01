@@ -1,0 +1,246 @@
+{
+  "id": "5a96e204-b80d-4faf-936d-3da3a705e5f7",
+  "version": "2.0",
+  "name": "Tutti Test",
+  "url": "https://www.tutti.ch",
+  "tests": [
+    {
+      "id": "6462582d-cbbd-4996-9ee6-783b4ab2c9fb",
+      "name": "Tutti Suche",
+      "commands": [
+        {
+          "id": "5ec876d9-a2da-4b3f-ba84-79ab6f7795fc",
+          "comment": "",
+          "command": "open",
+          "target": "/de",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "05714aa9-8b80-4765-b890-bdbb693308b7",
+          "comment": "",
+          "command": "storeTitle",
+          "target": "",
+          "targets": [],
+          "value": "x"
+        },
+        {
+          "id": "c07f90ff-05ea-4a09-b157-421323bb5950",
+          "comment": "",
+          "command": "assertTitle",
+          "target": "Gratis Inserate in deiner Nähe - tutti.ch",
+          "targets": [],
+          "value": "Gratis Inserate in deiner Nähe - tutti.ch"
+        },
+        {
+          "id": "43a6dfef-dc3a-4cbb-b249-c0e5de9be14e",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "956x654",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c13c0e90-fd13-476e-8244-fdd1045f1b94",
+          "comment": "",
+          "command": "click",
+          "target": "id=:Rlqlacl9cm:",
+          "targets": [
+            [
+              "id=:Rlqlacl9cm:",
+              "id"
+            ],
+            [
+              "css=#\\3ARlqlacl9cm\\3A",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id=':Rlqlacl9cm:']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='fixedHeaderId']/div/div/div/div/div/div/form/div/div/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6000b811-263c-427f-843f-a79b90ef583f",
+          "comment": "",
+          "command": "mouseOver",
+          "target": "css=.MuiButton-containedPrimary",
+          "targets": [
+            [
+              "css=.MuiButton-containedPrimary",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='fixedHeaderId']/div/div/div/div/div/div/form/div/div/div/div/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//form/div/div/div/div/div/button",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ac830c3a-25ba-43f9-bcd7-a9f7f729e3c6",
+          "comment": "",
+          "command": "click",
+          "target": "css=.MuiButton-containedPrimary",
+          "targets": [
+            [
+              "css=.MuiButton-containedPrimary",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='fixedHeaderId']/div/div/div/div/div/div/form/div/div/div/div/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//form/div/div/div/div/div/button",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "399045c5-1913-45c4-870d-dbc4274122c1",
+          "comment": "",
+          "command": "type",
+          "target": "id=:Rlqlacl9cm:",
+          "targets": [
+            [
+              "id=:Rlqlacl9cm:",
+              "id"
+            ],
+            [
+              "css=#\\3ARlqlacl9cm\\3A",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id=':Rlqlacl9cm:']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='fixedHeaderId']/div/div/div/div/div/div/form/div/div/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Kleidung für Damen"
+        },
+        {
+          "id": "4d0c357a-42dd-411c-b2f5-a52d69c6192d",
+          "comment": "",
+          "command": "mouseOut",
+          "target": "css=.MuiButton-containedSizeLarge",
+          "targets": [
+            [
+              "css=.MuiButton-containedSizeLarge",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='fixedHeaderId']/div/div/div/div/div/div/form/div/div/div/div/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//form/div/div/div/div/div/button",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0e23efd8-fdba-4e18-be63-5d3e3999de98",
+          "comment": "",
+          "command": "runScript",
+          "target": "window.scrollTo(0,667)",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3c9c23b9-f6db-4db5-893f-95c30fdd2323",
+          "comment": "",
+          "command": "verifyText",
+          "target": "css=.MuiBox-root > .MuiFormControlLabel-root > .MuiTypography-root",
+          "targets": [
+            [
+              "css=.MuiBox-root > .MuiFormControlLabel-root > .MuiTypography-root",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='pageContainer']/div[2]/div/div/div/div/div[2]/div/div/div[6]/div/div/div/form/div[2]/label/span[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//label/span[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Nur kostenlose Angebote')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Nur kostenlose Angebote"
+        },
+        {
+          "command": "verifyText",
+          "target": "id=messaging",
+          "value": "Nachrichten",
+          "id": "31b1ef9b-f540-49b5-a53d-9dc5877375e3"
+        },
+        {
+          "command": "verifyTitle",
+          "target": "Inserate aus der ganzen Schweiz - tutti.ch",
+          "value": "",
+          "id": "2ef3bf9b-5ae2-46dd-b2bb-6a4620d62d1d"
+        },
+        {
+          "command": "assertText",
+          "target": "id=insertAdId",
+          "value": "Inserat aufgeben",
+          "id": "af5e07ea-0df8-43ff-a576-ee661df9ae53"
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "88229f6c-e5cc-4a24-b938-03eeeb91057a",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "6462582d-cbbd-4996-9ee6-783b4ab2c9fb"
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.tutti.ch/"
+  ],
+  "plugins": []
+}

@@ -1,0 +1,200 @@
+{
+  "id": "a2dae121-66b0-4bd9-88e6-4fcf8e94f2f7",
+  "version": "2.0",
+  "name": "SRF Test",
+  "url": "https://www.srf.ch",
+  "tests": [
+    {
+      "id": "8bd7ecc4-f4b7-487a-a4f4-c20fedf6636a",
+      "name": "SRF Suche",
+      "commands": [
+        {
+          "id": "e1b1ba2a-14c0-4892-83b9-9728d99b2c8d",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d4ee0641-ce86-4db8-b682-060452c0bd36",
+          "comment": "",
+          "command": "storeTitle",
+          "target": "",
+          "targets": [],
+          "value": "x"
+        },
+        {
+          "command": "assertTitle",
+          "target": "Schweizer Radio und Fernsehen (SRF)",
+          "value": "",
+          "id": "8e8180a8-09f7-46d7-abc5-75fffa1b4c31"
+        },
+        {
+          "id": "ed9a477d-811a-43d2-a03c-c3870d84c103",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "956x654",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cc86a9d2-b102-4af8-af7c-6ca7254a76d3",
+          "comment": "",
+          "command": "click",
+          "target": "css=.svg-icon--searchmenu",
+          "targets": [
+            [
+              "css=.svg-icon--searchmenu",
+              "css:finder"
+            ],
+            [
+              "xpath=//nav[3]/a/span[2]/span/span",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e8637248-f60c-474c-8898-7730152ddd5b",
+          "comment": "",
+          "command": "click",
+          "target": "css=.search--active .search__input",
+          "targets": [
+            [
+              "css=.search--active .search__input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='q'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div/div/div/div[2]/form/div/div/label/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "577e645a-cf5f-4cbb-9266-5f99e6952df1",
+          "comment": "",
+          "command": "type",
+          "target": "css=.search--active .search__input",
+          "targets": [
+            [
+              "css=.search--active .search__input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='q'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div/div/div/div[2]/form/div/div/label/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Senioren im Digitaldschungel: Online, aber hilflos?"
+        },
+        {
+          "id": "cb3f3e01-2a37-4858-b280-82212822d6d0",
+          "comment": "",
+          "command": "sendKeys",
+          "target": "css=.search--active .search__input",
+          "targets": [
+            [
+              "css=.search--active .search__input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='q'])[2]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div/div/div/div[2]/form/div/div/label/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "${KEY_ENTER}"
+        },
+        {
+          "id": "135e7176-956a-4006-a5cc-e4819f17604f",
+          "comment": "",
+          "command": "click",
+          "target": "css=#rubric-search .teaser-ng__title",
+          "targets": [
+            [
+              "css=#rubric-search .teaser-ng__title",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='rubric-search']/div[3]/ul/li/a/div[2]/div/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a/div[2]/div/span",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "00547884-5992-408f-af44-a4cb1356b198",
+          "comment": "",
+          "command": "verifyText",
+          "target": "css=.article-title__text",
+          "targets": [
+            [
+              "css=.article-title__text",
+              "css:finder"
+            ],
+            [
+              "xpath=//span[3]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Senioren im Digitaldschungel: Online, aber hilflos?')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "Senioren im Digitaldschungel: Online, aber hilflos? "
+        },
+        {
+          "command": "verifyTitle",
+          "target": "Besuch im Digital Café - Senioren im Digitaldschungel: Online, aber hilflos? - Kultur - SRF",
+          "value": "",
+          "id": "eb82ee03-564c-4448-bb65-c28d7db3cc39"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=.article-title__overline",
+          "value": "Besuch im Digital Café",
+          "id": "4907a6da-61ee-4763-a129-2d283bb31be5"
+        },
+        {
+          "command": "assertText",
+          "target": "css=.article-lead",
+          "value": "   Online-Banking einrichten, E-Tickets kaufen oder den Whatsapp-Status updaten: Wie schaffen es ältere Leute, sich nicht abhängen zu lassen?",
+          "id": "b0f82de3-f602-4afb-8f00-efaa27ce6c97"
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "679352c1-dd8c-4688-88c1-08d2a6182087",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "8bd7ecc4-f4b7-487a-a4f4-c20fedf6636a"
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.srf.ch/"
+  ],
+  "plugins": []
+}
